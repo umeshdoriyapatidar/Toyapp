@@ -10,10 +10,10 @@ gem "rails", "~> 7.0.3"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active 
-group :development, :test do
-  gem 'sqlite3', '1.4.1'
-  gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
-end
+# group :development, :test do
+#   gem 'sqlite3', '1.4.1'
+#   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+# end
 # gem "sqlite3", "~> 1.4"
 group :production do
 gem 'pg', '1.3.5'
